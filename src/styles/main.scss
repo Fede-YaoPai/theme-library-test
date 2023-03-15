@@ -1,0 +1,16 @@
+@import 'helpers/variables';
+@import 'helpers/helpers';
+
+@font-face {
+  font-family: 'TitilliumWeb';
+  src: url('../assets/fonts/TitilliumWeb-Regular.ttf');
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  * {
+    font-family: 'TitilliumWeb';
+  }
+}
